@@ -1,0 +1,55 @@
+div#modal-dialog{
+    max-width: 750px !important;
+}
+#label{
+    margin-bottom: 0px !important;
+}
+.modal-header, .modal-body{
+    padding-left:30px !important;
+    padding-right: 30px !important;
+}
+.modal-header{
+    align-items: center !important;
+}
+button.close {
+    border: none !important;
+    outline: none !important;
+    font-size: 20px !important;
+}
+button.close:hover{
+    color: green !important;
+    
+}
+.modal-footer{
+    border-top: none !important;
+    margin-bottom: 10px;
+    padding-top: 0px !important;
+}
+
+@media (max-width:768px) {
+    div#all-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .img-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
+
+@media (max-width:480px) {
+    div#all-wrapper{
+        gap: 10px !important;
+    }
+    .teacher-img{
+        height: 130px !important;
+    }
+    button#login-btn{
+        width: 100% !important;
+    }
+}
